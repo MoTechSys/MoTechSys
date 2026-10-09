@@ -1,26 +1,48 @@
 <div align="center">
 
-<h1>م. معين العباسي · Moain Al-Abbasi</h1>
+<a href="https://basirapp.site">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
+  <img alt="م. معين العباسي — Moain Al-Abbasi · Applied-AI, Security and Full-stack Engineer" src="assets/header-dark.svg" width="100%">
+</picture>
+</a>
 
-**Full-stack, applied-AI & security engineer** — Arabic-first products, deterministic verification, multi-tenant platforms, offline-first apps.
-<br/>
-مهندس برمجيات وذكاء اصطناعي تطبيقي — أبني منتجات عربية أولًا: أنظمة تحقق حتمية، منصات متعددة المستأجرين، وكلاء ذكاء اصطناعي، تطبيقات تعمل بلا إنترنت، ومواقع فاخرة للعملاء.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/roles-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/roles-light.svg">
+  <img alt="building Arabic-first products that prove, not guess" src="assets/roles-dark.svg" width="100%">
+</picture>
 
-<br/>
-
-[![Basira](https://img.shields.io/badge/Live-basirapp.site-2EF2C2?style=for-the-badge&labelColor=12183F)](https://basirapp.site)
-[![Telegram Bot](https://img.shields.io/badge/Telegram-@BasiraCheckBot-6150EA?style=for-the-badge&logo=telegram&logoColor=white&labelColor=12183F)](https://t.me/BasiraCheckBot)
-[![GitHub](https://img.shields.io/badge/GitHub-MoTechSys-12183F?style=for-the-badge&logo=github)](https://github.com/MoTechSys)
-[![GitHub 2](https://img.shields.io/badge/GitHub-moain2026-12183F?style=for-the-badge&logo=github)](https://github.com/moain2026)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/stack-light.svg">
+  <img alt="Python · TypeScript · Go · Dart/Flutter · FastAPI · React 19 · Next.js · Hono · PostgreSQL · MCP · Docker · Wazuh SIEM" src="assets/stack-dark.svg" width="100%">
+</picture>
 
 </div>
 
----
+<br>
 
-## ⭐ Featured — بصيرة · Basira
+<a href="https://github.com/MoTechSys/Project-Basira">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/basira-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/basira-light.svg">
+  <img alt="بصيرة · Basira — deterministic verification of Quran & Hadith quotations. 150/150 evaluation, 0/500 false alarms, 78.54% IslamicEval 2025, 487 tests" src="assets/basira-dark.svg" width="100%">
+</picture>
+</a>
 
-> **Deterministic verification of Quran and Hadith quotations — before you publish.**
-> Entry to the *AI in Service of Islamic Content Challenge 2026* — Track 4 (knowledge & verification tools).
+<p align="center">
+  <a href="https://basirapp.site"><b>basirapp.site</b></a> ·
+  <a href="https://github.com/MoTechSys/Project-Basira">Repository</a> ·
+  <a href="https://basirapp.site/docs">API docs</a> ·
+  <a href="https://t.me/BasiraCheckBot">@BasiraCheckBot</a>
+</p>
+
+<details>
+<summary><b>How Basira works</b> — engineering notes</summary>
+
+<br>
 
 Paste a post, an article, a chatbot answer or an image. Basira finds every quotation presented as Quran or Hadith,
 matches it **byte-exactly** against licensed, sha256-pinned corpora (71,987 records), shows the verbatim source next to
@@ -34,61 +56,98 @@ positions and reads images — **the deterministic engine decides**. No generate
 | IslamicEval 2025 · subtask 1B (dev) | **78.54 %**, only **2 / 100** wrong spans confirmed |
 | Tests | 345 backend · 110 bot · 32 frontend · mypy `--strict` |
 
-**Engineering highlights:** corpus-anchored seed-and-extend detection (BLAST-style) · three-tier Arabic normalisation ·
-numpy positional index (< 5 ms / quote over 4.5 M tokens) · BM25 + char-3-gram + RRF retrieval · windowed
-token-Levenshtein · harakat gate & rasm-uniqueness proof · 19 named safety invariants · validator that independently
-re-proves every “found” · `determinism_hash` on every response · REST, **MCP server**, Guard for chatbots, Telegram bot ·
-one-command run (`bash run.sh`).
+Corpus-anchored seed-and-extend detection (BLAST-style) · three-tier Arabic normalisation · numpy positional index
+(< 5 ms / quote over 4.5 M tokens) · BM25 + char-3-gram + RRF retrieval · windowed token-Levenshtein · harakat gate &
+rasm-uniqueness proof · 19 named safety invariants · validator that independently re-proves every “found” ·
+`determinism_hash` on every response · REST, **MCP server**, Guard for chatbots, Telegram bot · one-command run.
 
-**→ [Repository](https://github.com/MoTechSys/Project-Basira) · [Live site](https://basirapp.site) · [API docs](https://basirapp.site/docs)**
+> Entry to the *AI in Service of Islamic Content Challenge 2026* — Track 4 (knowledge & verification tools).
 
----
+</details>
 
-## 🧰 Selected work
+<br>
 
-### Platforms & systems
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/label-work-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/label-work-light.svg">
+  <img alt="Selected work" src="assets/label-work-dark.svg" width="100%">
+</picture>
+
+<a href="https://github.com/MoTechSys?tab=repositories">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/work-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/work-light.svg">
+  <img alt="Selected work — platforms & systems, AI & security, offline-first apps" src="assets/work-dark.svg" width="100%">
+</picture>
+</a>
+
+<p align="center"><sub>
+<a href="https://github.com/moain2026/nexus-notify">nexus-notify</a> ·
+<a href="https://github.com/MoTechSys/scam2027">scam2027</a> ·
+<a href="https://github.com/moain2026/motech-platform">motech-platform</a> ·
+<a href="https://github.com/moain2026/Ai_Alabbasi">Ai_Alabbasi</a> ·
+<a href="https://github.com/moain2026/telegram-mcp-2">telegram-mcp-2</a> ·
+<a href="https://github.com/MoTechSys/my-bro">my-bro</a> ·
+<a href="https://github.com/MoTechSys/mohanad-web-app-2">دفتر البقالة</a> ·
+<a href="https://github.com/MoTechSys/Sijilati">Sijilati</a> ·
+<a href="https://github.com/MoTechSys/electricity-billing-flutter">electricity-billing</a> ·
+<a href="https://github.com/moain2026/electricity-billing-pwa">PWA</a>
+</sub></p>
+
+<details>
+<summary><b>+ 9 more</b> — tutoring platform, accounting, AI voice training, forensics lab, client websites</summary>
+
+<br>
 
 | Project | What it is | Stack |
 |---|---|---|
-| [**Project-Basira**](https://github.com/MoTechSys/Project-Basira) | Deterministic Quran & Hadith quotation checker — web, REST, MCP server, Telegram bot | Python · FastAPI · NumPy · React 19 |
-| [**nexus-notify**](https://github.com/moain2026/nexus-notify) | Central multi-tenant, multi-channel notification & conversation platform behind one API | TypeScript |
-| [**motech-platform**](https://github.com/moain2026/motech-platform) · [**motech-cli**](https://github.com/moain2026/motech-cli) | Secure remote-access management (SSH over a NetBird mesh) + a one-command cross-platform agent (Windows / Linux / macOS, amd64 + arm64) | Go · HTML |
-| [**scam2027**](https://github.com/MoTechSys/scam2027) | Multi-tenant course & assessment manager for universities — PostgreSQL RLS, Auth.js, RBAC with 114 permissions | Next.js 16 · Prisma · PostgreSQL |
-| [**Idhaat-Platform**](https://github.com/MoTechSys/Idhaat-Platform) | منصة إضاءات — live tutoring platform: live classes, protected 48-hour recordings, homework, messaging; installable PWA | TypeScript · PWA |
+| [**Idhaat-Platform**](https://github.com/MoTechSys/Idhaat-Platform) | منصة إضاءات — live tutoring: live classes, protected 48-hour recordings, homework, messaging; installable PWA | TypeScript · PWA |
 | [**hesabati**](https://github.com/moain2026/hesabati) | حساباتي — multi-business financial & accounting system with an Arabic UI | TypeScript |
-
-### AI & security
-
-| Project | What it is | Stack |
-|---|---|---|
-| [**Ai_Alabbasi**](https://github.com/moain2026/Ai_Alabbasi) | Swappable-brain autonomous coding agent: one config file switches between a strong API model and a local model | Python |
-| [**telegram-mcp-2**](https://github.com/moain2026/telegram-mcp-2) | Expanded Telegram MCP server with safe tools and an HTTP wrapper — sanitized public release | Python · MCP |
 | [**ghaida**](https://github.com/MoTechSys/ghaida) | غيداء — trains domestic workers in their own language with AI voice, video and tailored schedules | TypeScript · Python |
-| [**my-bro**](https://github.com/MoTechSys/my-bro) | SOC graduation project — open-source Security Operations Center built on Wazuh SIEM | Python |
-| [**digital-forensics-lab**](https://github.com/moain2026/digital-forensics-lab) | Hands-on digital forensics: Windows Registry, Event Log, Autopsy, FTK Imager, browser forensics — with real artifacts and tooling | PowerShell |
-
-### Offline-first apps for real businesses
-
-| Project | What it is | Stack |
-|---|---|---|
-| [**mohanad-web-app-2**](https://github.com/MoTechSys/mohanad-web-app-2) | دفتر البقالة — Android accounting for small groceries: append-only ledgers, vouchers, shifts, barcode, PDF/Excel, 157 tests | Flutter · Hive |
-| [**Sijilati**](https://github.com/MoTechSys/Sijilati) | سجلاتي — digital debt ledger for Yemeni shops that works without internet | Flutter |
-| [**electricity-billing-flutter**](https://github.com/MoTechSys/electricity-billing-flutter) · [**electricity-billing-pwa**](https://github.com/moain2026/electricity-billing-pwa) | Electricity billing for a power-generation company — Android app and a fully local PWA (IndexedDB, no server) | Flutter · Next.js · TypeScript |
-
-### Web for clients
-
-| Project | What it is | Stack |
-|---|---|---|
+| [**digital-forensics-lab**](https://github.com/moain2026/digital-forensics-lab) | Windows Registry, Event Log, Autopsy, FTK Imager, browser forensics — with real artifacts | PowerShell |
+| [**motech-cli**](https://github.com/moain2026/motech-cli) | One-command cross-platform agent (Windows / Linux / macOS, amd64 + arm64) | Go |
 | [**keif-aldiafa-web**](https://github.com/MoTechSys/keif-aldiafa-web) | كيف الضيافة — production site for a Saudi hospitality business (CRO, SEO/GEO, PDPL compliance) | Next.js · TypeScript |
 | [**osoul-aldiafa-v2**](https://github.com/MoTechSys/osoul-aldiafa-v2) | أصول الضيافة — luxury hospitality website | Next.js 14 |
-| [**royal-coffee-hospitality**](https://github.com/moain2026/royal-coffee-hospitality) | القهوة الملكية — Arabic hospitality site rebuilt with a luxury identity, native RTL, high performance | Hono · Cloudflare Pages |
+| [**royal-coffee-hospitality**](https://github.com/moain2026/royal-coffee-hospitality) | القهوة الملكية — Arabic hospitality site with a luxury identity, native RTL, high performance | Hono · Cloudflare Pages |
 | [**alabbasi-soft-site**](https://github.com/moain2026/alabbasi-soft-site) | Official website of Alabbasi Tech, a software house in Sana'a | Next.js 15 |
 
-> Two accounts: **[@MoTechSys](https://github.com/MoTechSys)** (main) · **[@moain2026](https://github.com/moain2026)** (systems, AI agents, client work).
+</details>
 
----
+<br>
 
-## 🛠️ Toolbox
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/label-live-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/label-live-light.svg">
+  <img alt="Live, auto-updated daily" src="assets/label-live-dark.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/live-stats-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/live-stats-light.svg">
+  <img alt="Languages, contributions and streak — generated daily from the GitHub API" src="assets/live-stats-dark.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/live-grid-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/live-grid-light.svg">
+  <img alt="Contribution grid of the last 12 months, scanned like Basira verifies a quote" src="assets/live-grid-dark.svg" width="100%">
+</picture>
+
+<br><br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/label-toolbox-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/label-toolbox-light.svg">
+  <img alt="How I build" src="assets/label-toolbox-dark.svg" width="100%">
+</picture>
+
+I work with frontier AI coding agents — **Claude Opus 5.5 · Claude Fable 5.1 · GPT-6 Astra** via **Genspark** — under strict engineering rules: every safety invariant has a named test, every
+number is measured and dated, every decision is recorded, and nothing ships without passing the gates.
+
+<details>
+<summary><b>Toolbox</b></summary>
+
+<br>
 
 - **Languages** · Python · TypeScript · JavaScript · Dart · Go · SQL · PowerShell
 - **Backend** · FastAPI · Pydantic · Hono · Node.js · PostgreSQL · Drizzle · REST · Model Context Protocol (MCP)
@@ -97,16 +156,14 @@ one-command run (`bash run.sh`).
 - **Security** · SOC with Wazuh SIEM · digital forensics (Autopsy, FTK Imager, registry & event logs) · secure remote access (SSH, NetBird mesh)
 - **Quality & ops** · pytest · vitest · Playwright · ruff · mypy strict · Docker · Caddy · GitHub Actions CI/CD · VPS deployment
 
----
+</details>
 
-## 🤖 How I build
+> Two accounts: **[@MoTechSys](https://github.com/MoTechSys)** (main) · **[@moain2026](https://github.com/moain2026)** (systems, AI agents, client work).
 
-I work with frontier AI coding agents — **Claude Opus 5.5 · Claude Fable 5.1 · GPT-6 Astra** via **Genspark** — under strict
-engineering rules: every safety invariant has a named test, every number is measured and dated, every decision is
-recorded, and nothing ships without passing the gates.
+<br>
 
-<div align="center">
-
-<sub>Arabic-first · measured, not claimed · بصيرة: تعرض أين وُجد النص… ولا تحكم عليه</sub>
-
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/footer-light.svg">
+  <img alt="بصيرة: تعرض أين وُجد النص… ولا تحكم عليه — Arabic-first · measured, not claimed" src="assets/footer-dark.svg" width="100%">
+</picture>
