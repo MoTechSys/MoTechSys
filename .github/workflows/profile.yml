@@ -35,7 +35,7 @@ jobs:
           # Optional: add a classic PAT (read:user) as secret PROFILE_TOKEN to
           # count contributions from both accounts precisely. Without it the
           # public contribution pages are used — still accurate for public work.
-          GH_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+          GH_TOKEN: ${{ secrets.PROFILE_TOKEN || github.token }}
           PROFILE_USERS: MoTechSys,moain2026
         run: |
           python scripts/build_static.py
